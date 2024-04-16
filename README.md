@@ -45,7 +45,21 @@ Learnlynx dibuat agar para mahasiswa dan dosen dapat terus belajar dan mengajar 
 - Diskusi dan Reaksi Dengan Integrasi Diskusi
 - Ujian Online [segera hadir]
 
+![image](https://github.com/Wiraapriliansyah/Learnlynx/assets/152155184/14192076-40b0-4e9d-baad-629132429b4d)
 
+Entity relationship diagram (ERD) adalah diagram yang menggambarkan hubungan antara entitas dalam sistem. Pada gambar di atas terdapat enam entitas yang saling berhubungan, yaitu:
+1. Admin
+Admin memiliki atribut id_admin (atribut kunci), username, password, dan email. Admin dapat mengelola dosen, mahasiswa, kelas, dan materi. Ini berarti ada hubungan satu-ke-banyak antara admin dan entitas-entitas tersebut.
+2. Dosen
+Dosen memiliki atribut nip (atribut kunci), email, nama_dosen, nama_matkul, dan password. Dosen dapat mengajar dalam banyak kelas dan dapat mengunggah banyak materi. Ini berarti ada hubungan satu-ke-banyak antara dosen dan kelas, serta antara dosen dan materi. Dosen juga dapat diatur oleh admin. Ini berarti ada hubungan banyak-ke-satu antara dosen dan admin
+3. Mahasiswa
+Mahasiswa memiliki atribut nim (atribut_kunci), nama_mahasiswa, email, image, status_akun, dan tanggal_dibuat. Mahasiswa dapat terdaftar dalam banyak kelas dan dapat mengakses banyak materi. Ini berarti ada hubungan satu-ke-banyak antara mahasiswa dan kelas, serta antara mahasiswa dan materi. Mahasiswa juga dapat diatur oleh admin. Ini berarti ada hubungan banyak-ke-satu antara mahasiswa dan admin.
+4. Token
+Token memiliki atribut id_token (atribut kunci), email, token, tanggal_dibuat. Token dapat dikaitkan dengan mahasiswa untuk otentikasi. Ini berarti ada hubungan satu-ke-satu antara token dan mahasiswa.
+5. Kelas
+Kelas memiliki atribut id_kelas (atribut kunci), kelas, dan nama_mahasiswa. Kelas dapat memiliki banyak mahasiswa dan banyak materi. Ini berarti ada hubungan banyak-ke-satu antara kelas dan mahasiswa, serta antara kelas dan materi. Kelas juga dapat diatur oleh admin dan diajarkan oleh dosen. Ini berarti ada hubungan banyak-ke-satu antara kelas dan admin, serta antara kelas dan dosen.
+6. Materi
+Materi memiliki atribut id_materi, kelas, deskripsi, video, nama_matkul, dan nama dosen. Materi dapat diakses oleh banyak mahasiswa dan diajarkan dalam banyak kelas. Ini berarti ada hubungan banyak-ke-satu antara materi dan mahasiswa, serta antara materi dan kelas. Materi juga dapat diunggah oleh dosen dan diatur oleh admin. Ini berarti ada hubungan banyak-ke-satu antara materi dan dosen, serta antara materi dan admin.
 
 <p></p>
 
@@ -107,6 +121,7 @@ Berhubung Project ini saya selesaikan sendiri, namun banyak fitur dan banyak hal
 
 - Copyright © 2023 Wira Apriliansyah Saputra
 - Learnlynx adalah aplikasi web open-source yang berlisensi dibawah lisensi MIT
+- Referensi https://github.com/syauqi/learnify
 
 ---
 
