@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di repository Learnlynx!</h1>
 
-[inipotonya png](https://github.com/Wiraapriliansyah/Learnlynx/assets/152155184/9d9ce6a4-93d1-47b8-b61a-7aeb7ce8f3c8)
+![inipotonya png](https://github.com/Wiraapriliansyah/Learnlynx/assets/152155184/9d9ce6a4-93d1-47b8-b61a-7aeb7ce8f3c8)
 
 <p></p>
 
