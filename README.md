@@ -4,7 +4,7 @@
 <h1 align="center">Selamat datang di repository Educlipse!</h1>
 >>>>>>> ce160d7d4fa01b8e45f80b595f7ed56345dd0990
 
-![learnify-preview](https://i.postimg.cc/pLY0tSfM/Whats-App-Image-2023-12-18-at-14-09-07-bad9be15.jpg)
+![learnify-preview](![inipotonya](https://github.com/Wiraapriliansyah/Learnlynx/assets/152155184/0870e3e4-88ec-4db0-a866-68f5be51d2bd))
 
 <p></p>
 
