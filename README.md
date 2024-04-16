@@ -2,7 +2,7 @@
 <h1 align="center">Selamat datang di repository Learnlynx! 👋🏻</h1>
 =======
 <h1 align="center">Selamat datang di repository Educlipse!</h1>
->>>>>>> ce160d7d4fa01b8e45f80b595f7ed56345dd0990
+
 
 ![inipotonya png](https://github.com/Wiraapriliansyah/Learnlynx/assets/152155184/9d9ce6a4-93d1-47b8-b61a-7aeb7ce8f3c8)
 
